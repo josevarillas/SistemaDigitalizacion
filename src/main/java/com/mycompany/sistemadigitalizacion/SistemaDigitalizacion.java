@@ -3,7 +3,8 @@
  */
 
 package com.mycompany.sistemadigitalizacion;
-
+import com.formdev.flatlaf.FlatLightLaf; // Importar FlatLaf
+import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialLighterIJTheme;
 import javax.swing.SwingUtilities;
 
 /**
@@ -13,6 +14,7 @@ import javax.swing.SwingUtilities;
 public class SistemaDigitalizacion {
 
     public static void main(String[] args) {
+                    FlatMaterialLighterIJTheme.setup();
         SwingUtilities.invokeLater(() -> new DocumentosRelacionadosScreen());
     }
 }

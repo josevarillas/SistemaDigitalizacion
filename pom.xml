@@ -11,4 +11,16 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.sistemadigitalizacion.SistemaDigitalizacion</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf-intellij-themes</artifactId>
+            <version>3.3</version>
+        </dependency>
+    </dependencies>
 </project>
